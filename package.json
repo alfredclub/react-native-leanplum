@@ -1,7 +1,7 @@
 {
-  "author": "Branding Brand LLC",
+  "author": "Alfred Club",
   "bugs": {
-    "url": "https://github.com/brandingbrand/react-native-leanplum/issues"
+    "url": "https://github.com/alfredclub/react-native-leanplum/issues"
   },
   "description": "React Native bridge for Leanplum iOS and Android SDKs.",
   "devDependencies": {
@@ -15,23 +15,23 @@
     "semantic-release": "^15.6.0",
     "typescript": "^2.4.2"
   },
-  "homepage": "https://github.com/brandingbrand/react-native-leanplum#readme",
+  "homepage": "https://github.com/alfredclub/react-native-leanplum#readme",
   "license": "MIT",
-  "main": "dist/index.js",
-  "name": "@brandingbrand/react-native-leanplum",
+  "main": "src/index.js",
+  "name": "@alfredclub/react-native-leanplum",
   "peerDependencies": {
     "react-native": ">=0.40.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandingbrand/react-native-leanplum.git"
+    "url": "git+https://github.com/alfredclub/react-native-leanplum.git"
   },
   "scripts": {
     "prepublishOnly": "./node_modules/.bin/tsc",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "types": "./typings/index.d.ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "release": {
     "verifyConditions": [
       "@semantic-release/changelog",
