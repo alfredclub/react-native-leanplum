@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/alfredclub/react-native-leanplum#readme",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "name": "@alfredclub/react-native-leanplum",
   "peerDependencies": {
     "react-native": ">=0.40.0"
