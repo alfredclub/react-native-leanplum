@@ -28,6 +28,7 @@
   },
   "scripts": {
     "prepublishOnly": "./node_modules/.bin/tsc",
+    "preinstall": "./node_modules/.bin/tsc",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "types": "./typings/index.d.ts",
